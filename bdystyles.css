@@ -1,0 +1,143 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey',cursive;
+    background: #EFB0C9;
+    color: rgb(84, 87, 87);
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.avatar{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+h1,h2,h3,h4,p{
+    /*text-shadow: 0px 0px 2px black;*/
+}
+
+#age{
+   /* background: rgb(224, 222, 222);
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 8px 0 10px 0;*/
+}
+#date{
+    margin-top: -5px;
+    background: #df9bb6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.para{
+   /* background: white;
+    padding: 5px 10px; */
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+.fgift{
+    margin-top: 30px;
+}
+.fgift-title{
+    margin-bottom: 0px;
+}
+.fgift-hint{
+    font-weight: lighter;
+}
+.fgift-img{
+    background-image: url("gift.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fgift-img:hover{
+    background-image: url("cool.gif");
+}
+.sgift{
+    margin-top: 80px;
+}
+.sgift-title{
+    margin-bottom: 20px;
+}
+.sgift-img{
+    background-image: url("gift.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sgift-img:hover{
+    background-image: url("lazycat.gif");
+}
+.tgift{
+    margin-top: 80px;
+}
+.tgift-title{
+    margin-bottom: 20px;
+}
+.tgift-img{
+    background-image: url("gift.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tgift-img:hover{
+    background-image: url("funpartner.gif");
+}
+.fourthgift{
+    margin-top: 80px;
+}
+.fourthgift-title{
+    margin-bottom: 20px;
+}
+.fourthgift-img{
+    background-image: url("gift.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fourthgift-img:hover{
+    background-image: url("style.gif");
+}
+
+.fifthgift{
+    margin-top: 80px;
+}
+.fifthgift-title{
+    margin-bottom: -10px;
+}
+.fifthgift-img{
+    background-image: url("gift.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.fifthgift-img:hover{
+    background-image: url("bike.gif");
+}
+.space{
+    margin-top: 100px;
+}
